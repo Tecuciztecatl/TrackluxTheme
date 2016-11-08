@@ -1,0 +1,201 @@
+/*
+Theme Name: Tracklux Spec
+Theme URI: test
+Description: Theme for Tracklux using SKT as a template.
+Author: Jose Ruiz Ascencio
+Author URI: github.com/Tecuciztecatl
+Template: twentyfourteen
+Version: 0.1
+*/
+
+@import url("../twentyfourteen/style.css");
+
+body {
+	background: #f5f5f5;
+}
+
+a {
+    color: grey;
+}
+
+#secondary {
+    min-height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    #secondary {
+        display: none;
+    }
+}
+
+#page {
+    margin: 0 auto;
+}
+/* Header things */
+.site-header {
+	background-color: rgb(134, 128, 123);
+}
+
+.site-navigation .current_page_item > a,
+.site-navigation .current_page_ancestor > a,
+.site-navigation .current-menu-item > a,
+.site-navigation .current-menu-ancestor > a,
+.site-navigation li .current_page_item > a,
+.site-navigation li .current_page_ancestor > a,
+.site-navigation li .current-menu-item > a,
+.site-navigation li .current-menu-ancestor > a {
+    background: rgb(235, 228, 226);
+    color: rgb(134, 128, 123);
+}
+
+.primary-navigation li:hover > a,
+.primary-navigation li.focus > a,
+.primary-navigation ul ul a:hover,
+.primary-navigation ul ul li.focus > a {
+    background-color: rgb(235, 228, 226);
+    color: rgb(134, 128, 123);
+}
+
+#secondary,
+.primary-navigation ul ul,
+.secondary-navigation ul ul
+{
+    background-color: rgb(134, 128, 123);
+}
+
+
+.secondary-navigation li:hover > a,
+.secondary-navigation li.focus > a,
+.secondary-navigation ul ul a:hover,
+.secondary-navigation ul ul li.focus > a {
+    background-color: rgb(235, 228, 226);
+    color: rgb(134, 128, 123);
+}
+/* footer */
+
+.site-footer,
+.site-info,
+.site-info a {
+	background-color: rgb(134, 128, 123);
+}
+
+a:active,
+a:hover,
+.site-info a:hover {
+	color: rgb(119, 119, 119);
+    font-weight: 900;
+}
+
+
+
+@media screen and (min-width: 1008px) {
+    #supplementary {
+        margin-left: 20%;
+    }
+}
+/* Comments - posts - search */
+.entry-content .edit-link a {
+	color: rgb(134, 128, 123);
+}
+
+.entry-content .edit-link a:hover {
+	color: rgb(119, 119, 119);
+    font-weight: 900;
+}
+
+.entry-title a:hover,
+.entry-meta a:hover{
+	color: rgb(119, 119, 119);
+    text-decoration: underline;
+}
+
+button,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background-color: rgb(134, 128, 123);
+    color: rgb(235, 228, 226);
+}
+
+button:hover,
+button:focus,
+.button:hover,
+.button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background-color: rgb(235, 228, 226);
+    color: rgb(134, 128, 123);
+}
+/* Support a widely-adopted but non-standard selector for text selection styles
+ * to achieve a better experience. See https://core.trac.wordpress.org/ticket/25898.
+ */
+::selection {
+	background: rgb(134, 128, 123);
+    color: rgb(235, 228, 226);
+}
+
+::-moz-selection {
+	background: rgb(134, 128, 123);
+    color: rgb(235, 228, 226);
+}
+
+
+/* Placeholder text color -- selectors need to be separate to work. */
+
+::-webkit-input-placeholder {
+	color: #939393;
+}
+
+:-moz-placeholder {
+	color: #939393;
+}
+
+::-moz-placeholder {
+	color: #939393;
+	opacity: 1; /* Since FF19 lowers the opacity of the placeholder by default */
+}
+
+:-ms-input-placeholder {
+	color: #939393;
+}
+
+
+/* Left hand background-colour */
+.site:before {
+    background-color: rgb(134, 128, 123);
+}
+
+
+/* Widgety colour */
+.widget_calendar tbody a {
+	background-color: rgb(134, 128, 123);
+	color: rgb(235, 228, 226);
+}
+
+.widget_calendar tbody a:hover {
+	background-color: rgb(235, 228, 226);
+    color: rgb(134, 128, 123);
+}
+
+
+.content-sidebar .widget a {
+	color: rgb(134, 128, 123);
+}
+
+.content-sidebar .widget a:hover {
+	color: rgb(119, 119, 119);
+    font-weight: 900;
+}
+
+
+.widget a:active,
+.widget a:hover {
+	color: rgb(64, 64, 64);
+    font-weight: 900;
+}
